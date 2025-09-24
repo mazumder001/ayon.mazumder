@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Ayon Mazumder — Contact</title>
+<link rel="icon" href="data:,"/><link rel="stylesheet" href="assets/style.css"/>
+<script src="assets/script.js" defer></script>
+</head><body>
+
+    <nav><div class="navinner">
+      <div class="left"><a class="brand" href="index.html">Ayon</a></div>
+      <div class="right"><a href="index.html">About</a><a href="projects.html">Projects</a><a href="publications.html">Publications</a><a href="experience.html">Experience</a><a href="contact.html" style="font-weight:700">Contact</a>
+        <a class="btn" href="javascript:void(0)" onclick="toggleTheme()">Toggle</a>
+      </div>
+    </div></nav>
+<div class="wrap">
+  <header class="hero"><h1>Contact</h1><p class="meta">Reach out for collaborations, research discussions, or speaking.</p></header>
+  <main>
+    <section>
+      <h2>Details</h2>
+      <div class="cards">
+        <div class="card"><strong>Email:</strong> <a href="mailto:ayon01may@gmail.com">ayon01may@gmail.com</a> · <a href="mailto:amazumd2@students.towson.edu">amazumd2@students.towson.edu</a></div>
+        <div class="card"><strong>Phone:</strong> <a href="tel:+18146609427">+1 (814) 660-9427</a></div>
+        <div class="card"><strong>Links:</strong> <a href="http://linkedin.com/in/ayon-mazumder-1b1100163" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://scholar.google.com/citations?user=2r2fgiIAAAAJ" target="_blank" rel="noopener">Google Scholar</a> · <a href="https://orcid.org/0009-0007-4120-9723" target="_blank" rel="noopener">ORCID</a></div>
+      </div>
+    </section>
+    <section>
+      <h2>Contact Form (Formspree)</h2>
+      <p class="meta">To receive messages without backend, create a free <a href="https://formspree.io" target="_blank" rel="noopener">Formspree</a> endpoint and replace the <code>action</code> URL below.</p>
+      <div class="card">
+        <form method="POST" action="https://formspree.io/f/your-id-here">
+          <div style="display:grid;gap:10px;grid-template-columns:1fr 1fr">
+            <input name="name" placeholder="Your name" required style="padding:10px;border-radius:8px;border:1px solid #2a3147;background:#0b1220;color:#e6e9ef"/>
+            <input type="email" name="email" placeholder="Email" required style="padding:10px;border-radius:8px;border:1px solid #2a3147;background:#0b1220;color:#e6e9ef"/>
+          </div>
+          <textarea name="message" placeholder="Message" rows="6" required style="margin-top:10px;width:100%;padding:10px;border-radius:8px;border:1px solid #2a3147;background:#0b1220;color:#e6e9ef"></textarea>
+          <button class="btn" type="submit" style="margin-top:10px">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>© <span id="y"></span> Ayon Mazumder</footer>
+</div>
+<script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body></html>
